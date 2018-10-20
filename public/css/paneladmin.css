@@ -1,0 +1,303 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E6E9EC;
+}
+
+.formaFotoPanelAdminPerfil{
+  height: 150px;
+  width: 150px;
+}
+
+.navbarredsocial {
+  background: #322d2d;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1100;
+
+}
+
+.primerfila {
+  padding-bottom: 4rem;
+}
+
+.textooo {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+
+.iconoperfil {
+  margin-top: 0;
+  margin-left: 0.5rem;
+}
+
+.iconomail {
+  margin-top: 0;
+  margin-left: 0.25rem;
+}
+
+.icononotificaciones {
+  margin-top: 0;
+  margin-left: 2rem;
+}
+
+.iconoconfiguracion {
+  font-size: 1.5rem;
+  margin-top: 0.2rem;
+}
+
+.containerhome, .navbargeneral {
+  padding: 0;
+}
+
+.mailnavbar {
+  margin-right: 4rem;
+}
+
+.perfilnavbar {
+  margin-right: 4rem;
+}
+
+.notificacionesnavbar {
+  margin-right: 4rem;
+}
+
+.configuracionnavbar {
+
+  margin-left: 0rem;
+}
+
+.premiumnavbar {
+  margin-left: 18rem;
+  margin-top: 0.4rem;
+
+}
+
+
+
+.botonsearchnavbar {
+  margin-left: 1rem;
+  color: #fff;
+}
+
+.buscador {
+  margin-top: 0.4rem;
+}
+
+.inputbuscador {
+  margin-left: 2rem;
+}
+
+.columnasegundocontainer {
+  margin: 0;
+  padding: 0;
+
+}
+
+/************************NAVBARMOVIL***********************/
+.cardnavcelular {
+  padding: 0.5rem;
+  background: #000000;
+}
+.icononavbarmovil {
+  font-size: 1.2rem;
+  width: 5rem;
+  color: #000000;
+}
+.botonnavbamovil {
+  width: 100%;
+}
+.modalnavmovil {
+  background: #000000;
+}
+.botoncerrarmodal {
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.iconomailmovil {
+  margin-top: 0;
+  margin-left: 0.1rem;
+}
+.iconoperfilmovil{
+  margin-top: 0;
+  margin-left: 0.5rem;
+}
+.icononotificacionesmovil {
+  margin-top: 0;
+  margin-left: 1.8rem;
+}
+.iconoconfiguracionmovil {
+  margin-top: 0;
+  margin-left: 1.0rem;
+
+}
+.botonmovilnav{
+  margin-left: 1rem;
+}
+/************************NAVBARMOVIL***********************/
+
+
+/*SLIDEBAR********************************************************************************************************************************/
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#wrapper.toggled {
+  padding-left: 250px;
+}
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+}
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+/* Sidebar Styles */
+.slidefila {
+
+  margin-left: 0rem;
+  background: #000000;
+}
+
+.lislide {
+  background: #000000;
+}
+
+.elementoslide {
+  background: #202020;
+  color: #309BFF;
+
+}
+
+.elementoslide:hover {
+  background: #368CFF;
+  color: #000000;
+  font-weight: 550;
+}
+@media(min-width:768px) {
+  #wrapper {
+    padding-left: 0;
+  }
+  #wrapper.toggled {
+    padding-left: 210px;
+  }
+  #sidebar-wrapper {
+    width: 0;
+  }
+  /* Ancho de la SlideBar */
+  #wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+  }
+  #page-content-wrapper {
+    padding: 0px;
+    position: relative;
+    margin-right: 1px;
+  }
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 1px;
+  }
+}
+
+
+
+
+/*SLIDEBAR*******************************************************************************************************************************/
+
+/************************cardinfo***********************/
+
+.cardinfo {
+  width: 100%
+}
+
+/*Usuarios*/
+.iconousuarios, .titulousuarios {
+  color: rgb(0, 189, 208);
+}
+.titulousuarios {
+  font-weight: bold;
+}
+/*Fin Usuarios*/
+
+
+/*Usuarios Premium*/
+.usuariospremium {
+  font-size: 0.905rem;
+}
+.iconousuariospremium, .titulousuariospremium {
+  color: rgb(0, 226, 130);
+}
+.titulousuariospremium {
+  font-weight: bold;
+}
+/*Fin Usuarios Premium*/
+
+
+/*Proyectos*/
+.iconoproyectos, .tituloproyectos {
+  color: rgb(166, 166, 166);
+}
+.tituloproyectos {
+  font-weight: bold;
+}
+/*Fin Proyectos*/
+
+
+/*Ideas*/
+.iconoideas, .tituloideas {
+  color: rgb(255, 178, 0);
+}
+.tituloideas {
+  font-weight: bold;
+}
+/*Fin Ideas*/
+
+/************************cardinfo**********************/
+
+div .uno, .dos, .tres, .cuatro, .cinco{
+  margin:0px;
+  padding: 0px;
+}
+
+.boton {
+  margin:0px;
+}
+
+.primercontainer{
+  margin:0px;
+  padding:0px;
+}
+.noticacionesColor{
+  color: #FF333F;
+
+}
+
+/********************NAVBAR RESPONSIVE***********************/
+.barraNOMBREAPELLIDO {
+  margin-left: 150px;
+}

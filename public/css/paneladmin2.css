@@ -1,0 +1,110 @@
+.cardform {
+  padding: 1rem;
+}
+
+.labelform {
+  margin-left: 1.25rem;
+}
+
+.labelProvincia {
+  margin-left: 6rem;
+}
+
+
+/************************TENGO QUE INCORPORAR ESTILOS DE CSS DE LA CARD DE BIENVENIDO***********************/
+.margen_general{
+  margin-top:3rem;
+}
+
+.formaFotoCardBienvenido{
+  height: 100px;
+  width: 100px;
+}
+
+.formaFoto{
+  height: 50px;
+  width: 50px;
+}
+
+.formaFotoPerfil{
+  height: 150px;
+  width: 150px;
+}
+
+.delimitador{
+    width:350px;    /* Ancho máximo */
+    height:150px;
+
+}
+
+.delimitadorCelular{
+  max-height: 6rem;
+  min-height: 6rem;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.delimitadorPublicidadArriba{
+  padding: 0;
+  max-height: 100px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.clase{
+  margin-top:75px;
+  margin-left:25px;
+}
+
+
+.cuerpoCard{
+  background-color:#FFFFFF;
+}
+
+.footerCard{
+  background-color:##FFFFFF;
+}
+
+.barraProgreso{
+  max-width:30em;
+}
+.moverFoto{
+  margin-left:5em;
+}
+
+.moverBotonPublicar{
+  margin-left:18em;
+}
+.moverInfoClicksPublicar{
+  margin-left:24em;
+}
+.moverInfoClicksPublicarCelu{
+  margin-left:11em;
+}
+
+.moverCerrarComentario{
+  margin-left:30em;
+}
+.moverCerrarComentariodelCelular{
+  margin-left:15em;
+}
+
+.moverBotonPublicarOpc{
+  margin-left:20em;
+}
+
+.moverBotonPublicarAdminParaCelu{
+  margin-left:8em;
+}
+.moverBotonComentarParaCelu{
+  margin-left:9em;
+}
+
+
+.imagenCelular{
+  padding: 0;
+  margin: 0;
+}
+
+
+/************************FIN ESTILOS DE CSS DE LA CARD DE BIENVENIDO***********************/
